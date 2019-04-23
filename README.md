@@ -14,7 +14,7 @@ Este codigo inserta fecha y numero de factura en la tabla 2 (o 1 si es necesario
 
 Este codigo comprueba en la tabla 4 que documentos requieren estar aprobados para exportar una entidad a la tabla 5 de la tabla 2 (o 1 si es necesario, solo hay que cambiar el blanco).
 
-Una vez encuentre una entidad con los criterios buscados, se crea una entidad en la tabla 5 (con fecha y numero de factura si la tiene) y modifica la entidad colocandola en esta Procesado en la tabla 2.
+Una vez encuentre una entidad con los criterios buscados, se crea una entidad en la tabla 5 (con fecha y numero de factura si la tiene) y modifica la entidad actualizando el estado a **Procesado** en la tabla 2.
 
 ## 03FactTb5.js
 
